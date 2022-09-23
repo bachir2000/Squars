@@ -12,6 +12,7 @@ let theme = true;  //true for light mode - false for night mode
 
 
 let squars;
+
 btn.addEventListener('click',()=>{
     if(xAxis.value*yAxis.value > 0){
         container.classList.add("disabled");
@@ -26,6 +27,7 @@ btn.addEventListener('click',()=>{
         }
         squars = document.querySelectorAll('.squar');
         colors = ['red','green','blue','pink','brown','white','black','purpul','yellow'];
+        
     squars.forEach(element => {
         element.addEventListener('mouseover', ()=> {
             element.classList.add('mouseIn');

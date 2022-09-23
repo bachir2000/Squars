@@ -55,7 +55,7 @@ body{
 }
 .container{
     background-color: var(--main-color);
-    padding: 25px 30px;
+    padding: 20px 30px;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 10px;
