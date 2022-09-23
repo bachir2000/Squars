@@ -61,6 +61,7 @@ body{
     height: 35%;
     border-radius: 10px;
     box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.68);
+    min-height: 200px;
 }
 h5{
     letter-spacing: 0.3px;
